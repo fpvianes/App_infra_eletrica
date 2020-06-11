@@ -1,6 +1,5 @@
 class Circuito:
     'Classe dos circuitos'
-    
     'O método calcArea retorna o valor em mm quadrados da área do circuito'
 
     def __init__(self, numFases, bitFases, numTerra, bitTerra, numNeutro = 0, bitNeutro = 0):
@@ -23,3 +22,7 @@ class Circuito:
         self.areaCirc = self.areaFases + self.areaNeutro + self.areaTerra
 
         return self.areaCirc
+
+if __name__ == "__main__":
+    circteste = Circuito(3,240,1,120,1,240)
+    print(circteste.calcArea())
