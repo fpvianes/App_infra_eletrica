@@ -1,0 +1,1 @@
+App para calculo de infraestrutura (eletroduto e eletrocalha) em instalações elétricas
